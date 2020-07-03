@@ -1,0 +1,21 @@
+{
+  "name": "covid-by-country",
+  "version": "1.0.0",
+  "description": "Parsing Worldometers corona cases",
+  "main": "./lib/main.js",
+  "bin": {
+    "covstats": "./bin/index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Paul van Woensel",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "yargs": "^15.4.0"
+  }
+}
