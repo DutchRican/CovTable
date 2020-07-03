@@ -9,6 +9,7 @@ Information is scraped from [WorldOMeter]('https://www.worldometers.info/coronav
 I merely parsed the html with [cheeriojs/cheerio]('https://github.com/cheeriojs/cheerio') and did not alter any of the statistics returned.
 
 run with:  
-`covstats` - this will provide a full table of all countries.  
-`covstats --help` - see the currently available options.  
-`covstats -x <number>` will show top x.
+`covtable` - this will provide a full table of all countries.  
+`covtable --help` - see the currently available options.  
+`covtable -x <number>` will show top x.
+`covtable -w ` include the World stats.

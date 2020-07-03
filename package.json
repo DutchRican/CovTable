@@ -1,16 +1,23 @@
 {
-  "name": "covid-by-country",
-  "version": "1.1.0",
+  "name": "covtable",
+  "version": "1.0.0",
   "description": "Parsing Worldometers corona cases",
+  "keywords": [
+    "Covid 19",
+    "Global Stats covid",
+    "Coronavirus",
+    "covid-19",
+    "cheerio",
+    "worldometers"
+  ],
   "main": "./lib/main.js",
   "bin": {
-    "covstats": "./bin/index.js"
+    "covtable": "./bin/index.js"
   },
   "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "Paul van Woensel",
   "license": "ISC",
   "dependencies": {
