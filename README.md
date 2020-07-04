@@ -1,7 +1,7 @@
 ## quick easy view of the covid status globally
 
 Install with:  
-`npm i -g covid-by-country`
+`npm i -g covtable`
 
 
 Information is scraped from [WorldOMeter]('https://www.worldometers.info/coronavirus/') Please make sure to visit their site.

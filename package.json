@@ -2,6 +2,10 @@
   "name": "covtable",
   "version": "1.2.0",
   "description": "Parsing Worldometers corona cases",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DutchRican/CovTable.git"
+  },
   "keywords": [
     "Covid 19",
     "Global Stats covid",
