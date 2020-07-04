@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+const { printTable } = require('console-table-printer');
 const createOutput = require('../lib/main');
 
 (async function main() {
@@ -27,5 +28,5 @@ const createOutput = require('../lib/main');
       .argv;
 
    const countries = await createOutput(argv.x, argv.w);
-   console.table(countries);
+   printTable(countries);
 })();
