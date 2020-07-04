@@ -39,6 +39,7 @@ const createOutput = require('../lib/main');
       .help()
       .argv;
 
+   try {
    const countries = await createOutput(argv.x, argv.w);
    const p = new Table({
       style: argv.b ? 'fatBorder' : 'thinBorder', title: 'Covid-19 as of ' + Date(), columns: [
@@ -55,4 +56,8 @@ const createOutput = require('../lib/main');
    countries.forEach(el => p.addRow(el));
    console.log('\n');
    p.printTable();
+} catch (err) {
+   console.log(err.message);
+   process.exit(1);
+}
 })();
