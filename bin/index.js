@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const { printTable } = require('console-table-printer');
+const { Table } = require('console-table-printer');
 const createOutput = require('../lib/main');
 
 (async function main() {
@@ -17,6 +17,18 @@ const createOutput = require('../lib/main');
          default: false,
          type: 'boolean'
       })
+      .option('color', {
+         alias: 'c',
+         describe: 'turn off colors',
+         default: false,
+         type: 'boolean'
+      })
+      .option('border', {
+         alias: 'b',
+         describe: 'double line border',
+         default: false,
+         type: 'boolean'
+      })
       .check((argv) => {
          if (Number.isInteger(argv.x)) {
             return true;
@@ -28,5 +40,19 @@ const createOutput = require('../lib/main');
       .argv;
 
    const countries = await createOutput(argv.x, argv.w);
-   printTable(countries);
+   const p = new Table({
+      style: argv.b ? 'fatBorder' : 'thinBorder', title: 'Covid-19 as of ' + Date(), columns: [
+         { name: 'Country', color: argv.c ? 'white' : 'white_bold', alignment: 'left' },
+         { name: 'Total Cases', color: argv.c ? 'white' : 'blue' },
+         { name: 'New Cases', color: argv.c ? 'white' : 'magenta' },
+         { name: 'Total Deaths', color: argv.c ? 'white' : 'red' },
+         { name: 'New Deaths', color: argv.c ? 'white' : 'red' },
+         { name: 'Recovered', color: argv.c ? 'white' : 'green' },
+         { name: 'Active Cases', color: argv.c ? 'white' : 'yellow' },
+         { name: 'Total Tested', color: argv.c ? 'white' : 'cyan' },
+      ]
+   });
+   countries.forEach(el => p.addRow(el));
+   console.log('\n');
+   p.printTable();
 })();
