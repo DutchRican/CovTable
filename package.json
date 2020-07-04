@@ -1,6 +1,6 @@
 {
   "name": "covtable",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Parsing Worldometers corona cases",
   "keywords": [
     "Covid 19",
@@ -23,6 +23,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
+    "console-table-printer": "^1.6.4",
     "yargs": "^15.4.0"
   }
 }
