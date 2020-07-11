@@ -46,6 +46,7 @@ const createOutput = require('../lib/main');
 
       const options = {
          borderType: argv.b ? 'double' : 'default',
+         title: 'Covid-19 as of ' + Date(),
          columnInformation: argv.c
             ? [{ color: 'white_bold' },
             { color: 'blue' },
