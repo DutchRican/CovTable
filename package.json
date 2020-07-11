@@ -1,6 +1,6 @@
 {
   "name": "covtable",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Parsing Worldometers corona cases",
   "repository": {
     "type": "git",
@@ -25,10 +25,9 @@
   "author": "Paul van Woensel",
   "license": "ISC",
   "dependencies": {
-    "@dutchrican/tablecli": "^1.0.2",
+    "@dutchrican/tablecli": "^1.1.0",
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
-    "console-table-printer": "^1.6.4",
     "status-spin": "^1.0.4",
     "yargs": "^15.4.0"
   }
