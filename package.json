@@ -1,6 +1,6 @@
 {
   "name": "covtable",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "description": "Parsing Worldometers corona cases",
   "repository": {
     "type": "git",
