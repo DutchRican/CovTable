@@ -1,5 +1,7 @@
 #!/usr/bin/env node
-const { Table } = require('console-table-printer');
+// const { Table } = require('console-table-printer');
+const { TableCli } = require('@dutchrican/tablecli');
+
 const createOutput = require('../lib/main');
 
 (async function main() {
@@ -40,24 +42,27 @@ const createOutput = require('../lib/main');
       .argv;
 
    try {
-   const countries = await createOutput(argv.x, argv.w);
-   const p = new Table({
-      style: argv.b ? 'fatBorder' : 'thinBorder', title: 'Covid-19 as of ' + Date(), columns: [
-         { name: 'Country', color: argv.c ? 'white' : 'white_bold', alignment: 'left' },
-         { name: 'Total Cases', color: argv.c ? 'white' : 'blue' },
-         { name: 'New Cases', color: argv.c ? 'white' : 'magenta' },
-         { name: 'Total Deaths', color: argv.c ? 'white' : 'red' },
-         { name: 'New Deaths', color: argv.c ? 'white' : 'red' },
-         { name: 'Recovered', color: argv.c ? 'white' : 'green' },
-         { name: 'Active Cases', color: argv.c ? 'white' : 'yellow' },
-         { name: 'Total Tested', color: argv.c ? 'white' : 'cyan' },
-      ]
-   });
-   countries.forEach(el => p.addRow(el));
-   console.log('\n');
-   p.printTable();
-} catch (err) {
-   console.log(err.message);
-   process.exit(1);
-}
+      const countries = await createOutput(argv.x, argv.w);
+
+      const options = {
+         borderType: argv.b ? 'double' : 'default',
+         columnInformation: argv.c
+            ? [{ color: 'white_bold' },
+            { color: 'blue' },
+            { color: 'magenta' },
+            { color: 'red' },
+            { color: 'red' },
+            { color: 'green' },
+            { color: 'yellow' },
+            { color: 'cyan' }]
+            : []
+      }
+      const p = new TableCli(options);
+      p.setData(countries);
+      console.log('\n');
+      p.showTable();
+   } catch (err) {
+      console.log(err.message);
+      process.exit(1);
+   }
 })();
