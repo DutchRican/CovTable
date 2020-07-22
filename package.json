@@ -8,9 +8,16 @@
   },
   "keywords": [
     "Covid 19",
-    "Global Stats covid",
-    "Coronavirus",
+    "Global",
+    "stats",
+    "coronavirus",
+    "virus",
     "covid-19",
+    "covid",
+    "corona",
+    "cli",
+    "table",
+    "tracking",
     "cheerio",
     "worldometers"
   ],
@@ -29,6 +36,6 @@
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
     "status-spin": "^1.0.4",
-    "yargs": "^15.4.0"
+    "yargs": "^15.4.1"
   }
 }
