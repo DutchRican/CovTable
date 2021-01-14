@@ -33,7 +33,7 @@
   "license": "ISC",
   "dependencies": {
     "@dutchrican/tablecli": "^1.1.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.3",
     "status-spin": "^1.0.5",
     "yargs": "^15.4.1"
