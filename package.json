@@ -1,6 +1,6 @@
 {
   "name": "covtable",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "Parsing Worldometers corona cases",
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
   ],
   "main": "./lib/main.js",
   "bin": {
-    "covtable": "./bin/index.js"
+    "covtable": "bin/index.js"
   },
   "preferGlobal": true,
   "scripts": {
