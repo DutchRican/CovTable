@@ -1,0 +1,878 @@
+[
+    {
+        "name": "USA",
+        "param": "us"
+    },
+    {
+        "name": "India",
+        "param": "india"
+    },
+    {
+        "name": "Brazil",
+        "param": "brazil"
+    },
+    {
+        "name": "Russia",
+        "param": "russia"
+    },
+    {
+        "name": "UK",
+        "param": "uk"
+    },
+    {
+        "name": "France",
+        "param": "france"
+    },
+    {
+        "name": "Spain",
+        "param": "spain"
+    },
+    {
+        "name": "Italy",
+        "param": "italy"
+    },
+    {
+        "name": "Turkey",
+        "param": "turkey"
+    },
+    {
+        "name": "Germany",
+        "param": "germany"
+    },
+    {
+        "name": "Colombia",
+        "param": "colombia"
+    },
+    {
+        "name": "Argentina",
+        "param": "argentina"
+    },
+    {
+        "name": "Mexico",
+        "param": "mexico"
+    },
+    {
+        "name": "Poland",
+        "param": "poland"
+    },
+    {
+        "name": "South Africa",
+        "param": "south-africa"
+    },
+    {
+        "name": "Iran",
+        "param": "iran"
+    },
+    {
+        "name": "Ukraine",
+        "param": "ukraine"
+    },
+    {
+        "name": "Peru",
+        "param": "peru"
+    },
+    {
+        "name": "Indonesia",
+        "param": "indonesia"
+    },
+    {
+        "name": "Netherlands",
+        "param": "netherlands"
+    },
+    {
+        "name": "Czechia",
+        "param": "czech-republic"
+    },
+    {
+        "name": "Canada",
+        "param": "canada"
+    },
+    {
+        "name": "Romania",
+        "param": "romania"
+    },
+    {
+        "name": "Chile",
+        "param": "chile"
+    },
+    {
+        "name": "Belgium",
+        "param": "belgium"
+    },
+    {
+        "name": "Portugal",
+        "param": "portugal"
+    },
+    {
+        "name": "Iraq",
+        "param": "iraq"
+    },
+    {
+        "name": "Israel",
+        "param": "israel"
+    },
+    {
+        "name": "Sweden",
+        "param": "sweden"
+    },
+    {
+        "name": "Pakistan",
+        "param": "pakistan"
+    },
+    {
+        "name": "Bangladesh",
+        "param": "bangladesh"
+    },
+    {
+        "name": "Philippines",
+        "param": "philippines"
+    },
+    {
+        "name": "Switzerland",
+        "param": "switzerland"
+    },
+    {
+        "name": "Morocco",
+        "param": "morocco"
+    },
+    {
+        "name": "Austria",
+        "param": "austria"
+    },
+    {
+        "name": "Serbia",
+        "param": "serbia"
+    },
+    {
+        "name": "Saudi Arabia",
+        "param": "saudi-arabia"
+    },
+    {
+        "name": "Japan",
+        "param": "japan"
+    },
+    {
+        "name": "Hungary",
+        "param": "hungary"
+    },
+    {
+        "name": "Jordan",
+        "param": "jordan"
+    },
+    {
+        "name": "Panama",
+        "param": "panama"
+    },
+    {
+        "name": "Lebanon",
+        "param": "lebanon"
+    },
+    {
+        "name": "UAE",
+        "param": "united-arab-emirates"
+    },
+    {
+        "name": "Nepal",
+        "param": "nepal"
+    },
+    {
+        "name": "Georgia",
+        "param": "georgia"
+    },
+    {
+        "name": "Ecuador",
+        "param": "ecuador"
+    },
+    {
+        "name": "Belarus",
+        "param": "belarus"
+    },
+    {
+        "name": "Slovakia",
+        "param": "slovakia"
+    },
+    {
+        "name": "Croatia",
+        "param": "croatia"
+    },
+    {
+        "name": "Azerbaijan",
+        "param": "azerbaijan"
+    },
+    {
+        "name": "Bulgaria",
+        "param": "bulgaria"
+    },
+    {
+        "name": "Dominican Republic",
+        "param": "dominican-republic"
+    },
+    {
+        "name": "Bolivia",
+        "param": "bolivia"
+    },
+    {
+        "name": "Tunisia",
+        "param": "tunisia"
+    },
+    {
+        "name": "Denmark",
+        "param": "denmark"
+    },
+    {
+        "name": "Costa Rica",
+        "param": "costa-rica"
+    },
+    {
+        "name": "Ireland",
+        "param": "ireland"
+    },
+    {
+        "name": "Malaysia",
+        "param": "malaysia"
+    },
+    {
+        "name": "Kazakhstan",
+        "param": "kazakhstan"
+    },
+    {
+        "name": "Lithuania",
+        "param": "lithuania"
+    },
+    {
+        "name": "Armenia",
+        "param": "armenia"
+    },
+    {
+        "name": "Egypt",
+        "param": "egypt"
+    },
+    {
+        "name": "Kuwait",
+        "param": "kuwait"
+    },
+    {
+        "name": "Slovenia",
+        "param": "slovenia"
+    },
+    {
+        "name": "Moldova",
+        "param": "moldova"
+    },
+    {
+        "name": "Palestine",
+        "param": "state-of-palestine"
+    },
+    {
+        "name": "Guatemala",
+        "param": "guatemala"
+    },
+    {
+        "name": "Greece",
+        "param": "greece"
+    },
+    {
+        "name": "Qatar",
+        "param": "qatar"
+    },
+    {
+        "name": "Honduras",
+        "param": "honduras"
+    },
+    {
+        "name": "Myanmar",
+        "param": "myanmar"
+    },
+    {
+        "name": "Ethiopia",
+        "param": "ethiopia"
+    },
+    {
+        "name": "Oman",
+        "param": "oman"
+    },
+    {
+        "name": "Paraguay",
+        "param": "paraguay"
+    },
+    {
+        "name": "Venezuela",
+        "param": "venezuela"
+    },
+    {
+        "name": "Nigeria",
+        "param": "nigeria"
+    },
+    {
+        "name": "Bosnia and Herzegovina",
+        "param": "bosnia-and-herzegovina"
+    },
+    {
+        "name": "Libya",
+        "param": "libya"
+    },
+    {
+        "name": "Algeria",
+        "param": "algeria"
+    },
+    {
+        "name": "Bahrain",
+        "param": "bahrain"
+    },
+    {
+        "name": "Kenya",
+        "param": "kenya"
+    },
+    {
+        "name": "North Macedonia",
+        "param": "macedonia"
+    },
+    {
+        "name": "China",
+        "param": "china"
+    },
+    {
+        "name": "Kyrgyzstan",
+        "param": "kyrgyzstan"
+    },
+    {
+        "name": "Uzbekistan",
+        "param": "uzbekistan"
+    },
+    {
+        "name": "S. Korea",
+        "param": "south-korea"
+    },
+    {
+        "name": "Albania",
+        "param": "albania"
+    },
+    {
+        "name": "Ghana",
+        "param": "ghana"
+    },
+    {
+        "name": "Latvia",
+        "param": "latvia"
+    },
+    {
+        "name": "Norway",
+        "param": "norway"
+    },
+    {
+        "name": "Singapore",
+        "param": "singapore"
+    },
+    {
+        "name": "Sri Lanka",
+        "param": "sri-lanka"
+    },
+    {
+        "name": "Montenegro",
+        "param": "montenegro"
+    },
+    {
+        "name": "Afghanistan",
+        "param": "afghanistan"
+    },
+    {
+        "name": "ESalvador",
+        "param": "el-salvador"
+    },
+    {
+        "name": "Luxembourg",
+        "param": "luxembourg"
+    },
+    {
+        "name": "Zambia",
+        "param": "zambia"
+    },
+    {
+        "name": "Finland",
+        "param": "finland"
+    },
+    {
+        "name": "Estonia",
+        "param": "estonia"
+    },
+    {
+        "name": "Uganda",
+        "param": "uganda"
+    },
+    {
+        "name": "Uruguay",
+        "param": "uruguay"
+    },
+    {
+        "name": "Mozambique",
+        "param": "mozambique"
+    },
+    {
+        "name": "Namibia",
+        "param": "namibia"
+    },
+    {
+        "name": "Zimbabwe",
+        "param": "zimbabwe"
+    },
+    {
+        "name": "Cyprus",
+        "param": "cyprus"
+    },
+    {
+        "name": "Cameroon",
+        "param": "cameroon"
+    },
+    {
+        "name": "Australia",
+        "param": "australia"
+    },
+    {
+        "name": "Ivory Coast",
+        "param": "cote-d-ivoire"
+    },
+    {
+        "name": "Sudan",
+        "param": "sudan"
+    },
+    {
+        "name": "Senegal",
+        "param": "senegal"
+    },
+    {
+        "name": "DRC",
+        "param": "democratic-republic-of-the-congo"
+    },
+    {
+        "name": "Cuba",
+        "param": "cuba"
+    },
+    {
+        "name": "Botswana",
+        "param": "botswana"
+    },
+    {
+        "name": "Malawi",
+        "param": "malawi"
+    },
+    {
+        "name": "Angola",
+        "param": "angola"
+    },
+    {
+        "name": "Madagascar",
+        "param": "madagascar"
+    },
+    {
+        "name": "French Polynesia",
+        "param": "french-polynesia"
+    },
+    {
+        "name": "Malta",
+        "param": "malta"
+    },
+    {
+        "name": "Mauritania",
+        "param": "mauritania"
+    },
+    {
+        "name": "French Guiana",
+        "param": "french-guiana"
+    },
+    {
+        "name": "Maldives",
+        "param": "maldives"
+    },
+    {
+        "name": "Jamaica",
+        "param": "jamaica"
+    },
+    {
+        "name": "Eswatini",
+        "param": "swaziland"
+    },
+    {
+        "name": "Guinea",
+        "param": "guinea"
+    },
+    {
+        "name": "Syria",
+        "param": "syria"
+    },
+    {
+        "name": "Thailand",
+        "param": "thailand"
+    },
+    {
+        "name": "CabVerde",
+        "param": "cabo-verde"
+    },
+    {
+        "name": "Rwanda",
+        "param": "rwanda"
+    },
+    {
+        "name": "Tajikistan",
+        "param": "tajikistan"
+    },
+    {
+        "name": "Belize",
+        "param": "belize"
+    },
+    {
+        "name": "Haiti",
+        "param": "haiti"
+    },
+    {
+        "name": "Gabon",
+        "param": "gabon"
+    },
+    {
+        "name": "HonKong",
+        "param": "china-hong-kong-sar"
+    },
+    {
+        "name": "Burkina Faso",
+        "param": "burkina-faso"
+    },
+    {
+        "name": "Réunion",
+        "param": "reunion"
+    },
+    {
+        "name": "Andorra",
+        "param": "andorra"
+    },
+    {
+        "name": "Guadeloupe",
+        "param": "guadeloupe"
+    },
+    {
+        "name": "Bahamas",
+        "param": "bahamas"
+    },
+    {
+        "name": "Suriname",
+        "param": "suriname"
+    },
+    {
+        "name": "Lesotho",
+        "param": "lesotho"
+    },
+    {
+        "name": "Mali",
+        "param": "mali"
+    },
+    {
+        "name": "Congo",
+        "param": "congo"
+    },
+    {
+        "name": "Mayotte",
+        "param": "mayotte"
+    },
+    {
+        "name": "Trinidad and Tobago",
+        "param": "trinidad-and-tobago"
+    },
+    {
+        "name": "Guyana",
+        "param": "guyana"
+    },
+    {
+        "name": "Aruba",
+        "param": "aruba"
+    },
+    {
+        "name": "Martinique",
+        "param": "martinique"
+    },
+    {
+        "name": "Nicaragua",
+        "param": "nicaragua"
+    },
+    {
+        "name": "Iceland",
+        "param": "iceland"
+    },
+    {
+        "name": "Djibouti",
+        "param": "djibouti"
+    },
+    {
+        "name": "EquatoriaGuinea",
+        "param": "equatorial-guinea"
+    },
+    {
+        "name": "CAR",
+        "param": "central-african-republic"
+    },
+    {
+        "name": "Somalia",
+        "param": "somalia"
+    },
+    {
+        "name": "Togo",
+        "param": "togo"
+    },
+    {
+        "name": "Curaçao",
+        "param": "curacao"
+    },
+    {
+        "name": "Niger",
+        "param": "niger"
+    },
+    {
+        "name": "Gibraltar",
+        "param": "gibraltar"
+    },
+    {
+        "name": "Gambia",
+        "param": "gambia"
+    },
+    {
+        "name": "South Sudan",
+        "param": "south-sudan"
+    },
+    {
+        "name": "Benin",
+        "param": "benin"
+    },
+    {
+        "name": "ChanneIslands",
+        "param": "channel-islands"
+    },
+    {
+        "name": "Chad",
+        "param": "chad"
+    },
+    {
+        "name": "Sierra Leone",
+        "param": "sierra-leone"
+    },
+    {
+        "name": "San Marino",
+        "param": "san-marino"
+    },
+    {
+        "name": "Guinea-Bissau",
+        "param": "guinea-bissau"
+    },
+    {
+        "name": "Liechtenstein",
+        "param": "liechtenstein"
+    },
+    {
+        "name": "Comoros",
+        "param": "comoros"
+    },
+    {
+        "name": "New Zealand",
+        "param": "new-zealand"
+    },
+    {
+        "name": "Yemen",
+        "param": "yemen"
+    },
+    {
+        "name": "Eritrea",
+        "param": "eritrea"
+    },
+    {
+        "name": "Liberia",
+        "param": "liberia"
+    },
+    {
+        "name": "Sint Maarten",
+        "param": "sint-maarten"
+    },
+    {
+        "name": "Mongolia",
+        "param": "mongolia"
+    },
+    {
+        "name": "Vietnam",
+        "param": "viet-nam"
+    },
+    {
+        "name": "Burundi",
+        "param": "burundi"
+    },
+    {
+        "name": "Barbados",
+        "param": "barbados"
+    },
+    {
+        "name": "Monaco",
+        "param": "monaco"
+    },
+    {
+        "name": "Turks and Caicos",
+        "param": "turks-and-caicos-islands"
+    },
+    {
+        "name": "SaTome and Principe",
+        "param": "sao-tome-and-principe"
+    },
+    {
+        "name": "Saint Martin",
+        "param": "saint-martin"
+    },
+    {
+        "name": "Seychelles",
+        "param": "seychelles"
+    },
+    {
+        "name": "Taiwan",
+        "param": "taiwan"
+    },
+    {
+        "name": "Saint Lucia",
+        "param": "saint-lucia"
+    },
+    {
+        "name": "Bhutan",
+        "param": "bhutan"
+    },
+    {
+        "name": "Papua New Guinea",
+        "param": "papua-new-guinea"
+    },
+    {
+        "name": "St. Vincent Grenadines",
+        "param": "saint-vincent-and-the-grenadines"
+    },
+    {
+        "name": "Bermuda",
+        "param": "bermuda"
+    },
+    {
+        "name": "Faeroe Islands",
+        "param": "faeroe-islands"
+    },
+    {
+        "name": "Mauritius",
+        "param": "mauritius"
+    },
+    {
+        "name": "Tanzania",
+        "param": "tanzania"
+    },
+    {
+        "name": "Cambodia",
+        "param": "cambodia"
+    },
+    {
+        "name": "Isle of Man",
+        "param": "isle-of-man"
+    },
+    {
+        "name": "Cayman Islands",
+        "param": "cayman-islands"
+    },
+    {
+        "name": "Caribbean Netherlands",
+        "param": "caribbean-netherlands"
+    },
+    {
+        "name": "St. Barth",
+        "param": "saint-barthelemy"
+    },
+    {
+        "name": "Antigua and Barbuda",
+        "param": "antigua-and-barbuda"
+    },
+    {
+        "name": "Brunei ",
+        "param": "brunei-darussalam"
+    },
+    {
+        "name": "Grenada",
+        "param": "grenada"
+    },
+    {
+        "name": "British Virgin Islands",
+        "param": "british-virgin-islands"
+    },
+    {
+        "name": "Dominica",
+        "param": "dominica"
+    },
+    {
+        "name": "Timor-Leste",
+        "param": "timor-leste"
+    },
+    {
+        "name": "Fiji",
+        "param": "fiji"
+    },
+    {
+        "name": "Macao",
+        "param": "china-macao-sar"
+    },
+    {
+        "name": "Laos",
+        "param": "laos"
+    },
+    {
+        "name": "New Caledonia",
+        "param": "new-caledonia"
+    },
+    {
+        "name": "Falkland Islands",
+        "param": "falkland-islands-malvinas"
+    },
+    {
+        "name": "Saint Kitts and Nevis",
+        "param": "saint-kitts-and-nevis"
+    },
+    {
+        "name": "Greenland",
+        "param": "greenland"
+    },
+    {
+        "name": "Vatican City",
+        "param": "holy-see"
+    },
+    {
+        "name": "Solomon Islands",
+        "param": "solomon-islands"
+    },
+    {
+        "name": "Saint Pierre Miquelon",
+        "param": "saint-pierre-and-miquelon"
+    },
+    {
+        "name": "Anguilla",
+        "param": "anguilla"
+    },
+    {
+        "name": "Montserrat",
+        "param": "montserrat"
+    },
+    {
+        "name": "Western Sahara",
+        "param": "western-sahara"
+    },
+    {
+        "name": "MarshalIslands",
+        "param": "marshall-islands"
+    },
+    {
+        "name": "Wallis and Futuna",
+        "param": "wallis-and-futuna-islands"
+    },
+    {
+        "name": "Samoa",
+        "param": "samoa"
+    },
+    {
+        "name": "Micronesia",
+        "param": "micronesia"
+    },
+    {
+        "name": "Vanuatu",
+        "param": "vanuatu"
+    }
+]
