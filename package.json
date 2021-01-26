@@ -1,6 +1,6 @@
 {
   "name": "covtable",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "description": "Parsing Worldometers corona cases",
   "repository": {
     "type": "git",
@@ -34,8 +34,8 @@
   "dependencies": {
     "@dutchrican/tablecli": "^1.1.0",
     "axios": "^0.21.1",
-    "cheerio": "^1.0.0-rc.3",
-    "status-spin": "^1.0.5",
-    "yargs": "^15.4.1"
+    "cheerio": "^1.0.0-rc.5",
+    "status-spin": "^1.1.1",
+    "yargs": "^16.2.0"
   }
 }
