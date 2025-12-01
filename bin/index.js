@@ -2,10 +2,10 @@
 // const { Table } = require('console-table-printer');
 const { TableCli } = require('@dutchrican/tablecli');
 const createOutput = require('../lib/main');
+const yargs = require('yargs');
 
 (async function main() {
-   const argv = require('yargs')
-      .version('0.0.1')
+   const argv = yargs(process.argv)
       .option('counter', {
          alias: 'x',
          describe: 'Top x to generate the table, 0 will show all',
@@ -47,7 +47,7 @@ const createOutput = require('../lib/main');
       .help()
       .argv;
 
-   if(argv.l) {
+   if (argv.l) {
       const countries = require('../lib/country_code_map.json');
       const p = new TableCli();
       p.setData(countries);
@@ -57,7 +57,6 @@ const createOutput = require('../lib/main');
    }
    try {
       const countries = await createOutput(argv.x, !argv.w, argv.c);
-
       const options = {
          borderType: argv.b ? 'double' : 'default',
          title: 'Covid-19 as of ' + Date(),
