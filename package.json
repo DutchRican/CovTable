@@ -32,7 +32,7 @@
   "author": "Paul van Woensel",
   "license": "ISC",
   "dependencies": {
-    "@dutchrican/tablecli": "^1.1.0",
+    "@dutchrican/tablecli": "^1.1.1",
     "cheerio": "^1.1.2",
     "status-spin": "^1.1.1",
     "yargs": "^18.0.0"
